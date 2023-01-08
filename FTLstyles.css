@@ -1,0 +1,309 @@
+.deepPurple{
+  color: #0C0032
+}
+.Purple{
+  color: #190061
+}
+.lightPurple{
+  color: #240090
+}
+.bluePurple{
+  color: #3500D3
+}
+.darkGrey{
+  color: #282828
+}
+
+body{
+  position: relative;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+  font-family: OCR A Std, monospace;
+  padding-top: 80px;
+  color: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grad {
+  background-image: linear-gradient(to right, #0C0032, #240090);
+
+}
+.blackBg{
+  background-color: black;
+}
+
+.greyBg{
+  background-color: #282828;
+}
+
+.whiteText{
+    color: white;	
+}
+
+.navbar{
+  height: 80px;
+  box-shadow: 0px 0px 10px 1px #3500D3
+}
+.textCenter{
+  text-align: center;
+}
+
+.center{
+  float: center;
+}
+
+.titleDiv{
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.titles{
+  font-size: 5em;
+  text-shadow: #3500D3 10px 0 10px;
+}
+.caps{
+  text-transform:uppercase;
+}
+
+.info{
+  padding: 30px;
+  margin: 70px;
+  background-color: #282828!important;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px #3500D3;
+}
+
+.topButton{
+  z-index: 1000;
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  border-radius: 50%;
+  border-width: 0;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to right, #0C0032, #240090);
+}
+
+.topButton:hover{
+	font-size: 1.5em;
+}
+
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+  z-index: 100;
+}
+.carousel .card{
+  color: black;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.1em;
+  box-shadow: 0px 0px 10px 1px #3500D3;
+  background-color: #282828;
+  padding: 20px;
+  z-index: 100;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #282828!important;
+  background: #282828!important;
+  box-shadow: 0px 0px 3px 1px #3500D3;
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #240090!important;
+  border-color: #240090!important;
+}
+
+.carouselouter{
+  align-items:center;
+  min-height: 50vh;
+  display: flex;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+img {
+  background: transparent;
+}
+
+@keyframes slide-transparency {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-opacity {
+  animation-name: slide-transparency;
+  animation-iteration-count: infinite;
+}
+
+.freq-5 {
+  animation-duration: 5s;
+}
+
+.freq-6 {
+  animation-duration: 6.33s;
+}
+
+.freq-7 {
+  animation-duration: 7s;
+}
+
+.freq-8 {
+  animation-duration: 8.88s;
+}
+
+.freq-9 {
+  animation-duration: 9s;
+}
+
+.freq-10 {
+  animation-duration: 10.17s;
+}
+
+.delay-2 {
+  animation-delay: 1.33s;
+}
+
+.delay-4 {
+  animation-delay: 2.11s;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: -1000;
+}
+
+.z-1,
+.z-2,
+.z-3 {
+  position: absolute;
+  width: 150vw;
+  height: 150vw;
+  left: -50vw;
+  top: -50vw;
+  transform-origin: center;
+}
+
+.tile {
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  background-size: 512px 512px;
+}
+
+.top-left {
+  background-image: url(Images/topleft.png);
+}
+
+.top-right {
+  background-image: url(Images/topright.png);
+}
+
+.bottom-left {
+  background-image: url(Images/bottomleft.png);
+}
+
+.bottom-right {
+  background-image: url(Images/bottomright.png);
+}
+
+.bold{
+  font-weight:bold;	
+}
+
+.button {
+  display: inline-block;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #0C0032, #240090);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .dropdown-menu{
+	background-image: linear-gradient(to right, #0C0032, #240090)!important;
+	border: none;
+  }
+  .navbar{
+    height: unset;
+  }
+}
