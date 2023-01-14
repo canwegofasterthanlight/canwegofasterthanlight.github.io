@@ -17,7 +17,7 @@
   
   
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="20">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="20" onload="scrollFunction()">
 <div>
 <nav class="navbar navbar-expand-sm fixed-top navbar-dark grad">
   <div class="container-fluid">
@@ -28,26 +28,27 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav ms-auto ml-3 fw-bolder col-xxl-6">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" href="index.html">Home</a>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">How?</a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-xxl-start greyBg">
-            <li><a class="dropdown-item whiteText" href="#">The History of Human Speed</a></li>
-            <li><a class="dropdown-item whiteText" href="#">Theoretical Possibilities</a></li>
-          </ul>
+            <li><a class="dropdown-item whiteText" href="history.html">The History of Human Speed</a></li>
+            <li><a class="dropdown-item whiteText" href="possibilities.html">Theoretical Possibilities</a></li>
+            <li><a class="dropdown-item whiteText" href="problems.html">The Problems</a></li>
+		  </ul>
         </li>
 		<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Theory of Relativity</a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-xxl-start greyBg">
-            <li><a class="dropdown-item whiteText" href="#">What is the theory of relativity?</a></li>
-            <li><a class="dropdown-item whiteText" href="#">The Relativity of Simultaneity</a></li>
+            <li><a class="dropdown-item whiteText" href="tor.html">What is the theory of relativity?</a></li>
+            <li><a class="dropdown-item whiteText" href="ros.html">The Relativity of Simultaneity</a></li>
           </ul>
         </li>
 		<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Quantum Mechanics</a>
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-xxl-start greyBg">
-            <li><a class="dropdown-item whiteText" href="#">What is quantum mechanics?</a></li>
-            <li><a class="dropdown-item whiteText" href="#">Quantum Entanglement</a></li>
+            <li><a class="dropdown-item whiteText" href="quantummech.html">What is quantum mechanics?</a></li>
+            <li><a class="dropdown-item whiteText" href="quantumentanglement.html">Quantum Entanglement</a></li>
           </ul>
         </li>
       </ul>
@@ -79,30 +80,30 @@
       </div>
     </div>
 <div class="titleDiv">
-  <h1 class="whiteText textCenter caps titles">Can We Go The Speed Of Light?</h1>
+  <h1 class="whiteText textCenter caps titles">Can We Go Faster Than Light?</h1>
 </div>
 
 <div class="info whiteText textCenter">
   <p>
   Short answer, no.
   <br>
-  Long answer, yes theoretically.
+  Long answer, yes <i>theoretically</i>.
   <br>
   <br>
   With our current understanding of physics and the speed of light, 
   nothing with a mass can travel the speed of light (3x10<sup>8</sup>ms<sup>-1</sup>). 
-  This was first theorised by Einstein with his thought experiment. 
+  This was first theorised by Einstein with his <a class="lightPurple" href="ros.html" data-bs-toggle="tooltip" title="The Relativity of Simultaneity">thought experiment</a>. 
   Einstein's conclusion was that your length would become zero and you would have an infinite mass due to the 
   warping in space-time. Having said infinite mass also means it needs an infinite amount of kinetic energy to 
   accelerate to 3x10<sup>8</sup>ms<sup>-1</sup>, therefore making it impossible for all particles of mass 
-  (The relativity of simultaneity).<br><br>
-  This outcome is because of the theory of relativity and its effects from two observers . However, many physicists
+  (<a class="lightPurple" href="ros.html" data-bs-toggle="tooltip" title="The Relativity of Simultaneity">The Relativity of Simultaneity</a>).<br><br>
+  This outcome is because of the <a class="lightPurple" href="tor.html" data-bs-toggle="tooltip" title="The Theory of Relativity">Theory of Relativity</a> and its effects from two observers . However, many physicists
   including Einstein agree that any physical theory is an approximation of reality and not a literal description.
-  For example, if we go small, really small, ignoring the theory of relativity, we end up with quantum mechanics.
+  For example, if we go small, really small, ignoring the theory of relativity, we end up with <a class="lightPurple" href="quantummech.html" data-bs-toggle="tooltip" title="Quantum Mechanics">Quantum Mechanics</a>.
   <br><br>
   Some parts of quantum mechanics still marry up with the theory of relativity, for example: quantum field theory. 
   Nevertheless, most quantum mechanics exists outside of it, including one key mechanic that disproves the so-called
-  “speed limit of the universe” - Quantum Entanglement. In experiments, the effects of entanglement have been
+  “speed limit of the universe” - <a class="lightPurple" href="quantumentanglement.html" data-bs-toggle="tooltip" title="Quantum Entanglement">Quantum Entanglement</a>. In experiments, the effects of entanglement have been
   calculated going 10,000 times the speed of light. If we theorise quantum entanglement communication were possible,
   as well as the ability to turn matter into data and vise-versa, it would be possible to transfer you from one
   place to another at faster than the speed of light.
@@ -122,18 +123,18 @@
         <div class="card ">
 		  <h4 class="bold">The History</h4>
 	      <hr class="solid">
-		  <p class="textCenter whiteText">
+		  <p class="textCenter whiteText center">
 		    Humans weren't always zooming through space and thinking of all the ways to break the speed limit.
 			Here we look at the progression of humans in correlations to speed.
 		  </p>
 	      <hr class="solid">
-		  <button class="button" style="vertical-align:middle"><span>Learn More </span></button>
+		  <button class="button" style="vertical-align:middle" onclick=window.open("history.html")><span>Learn More </span></button>
 		</div>
 		
         <div class="card ">
 		  <h4 class="bold">The Possibilities</h4>
 	      <hr class="solid">
-		  <p class="textCenter whiteText">
+		  <p class="textCenter whiteText center">
 		    With many physicists looking into this topic, It shouldn't be a surprise that theories have already 
 			been made. Click to see some examples with there up's and down's.
 		  </p>
@@ -144,7 +145,7 @@
         <div class="card ">
 		  <h4 class="bold">Theory of Relativity</h4>
 	      <hr class="solid">
-		  <p class="textCenter whiteText">
+		  <p class="textCenter whiteText center">
 		    In this section, we look into Einstein's brain child and see how it's very exsistance causes many
 			problems when looking to go the speed of light, let alone faster.
 		  </p>
@@ -155,7 +156,7 @@
         <div class="card ">
 		  <h4 class="bold">Relativity of Simultaneity</h4>
 	      <hr class="solid">
-		  <p class="textCenter whiteText">
+		  <p class="textCenter whiteText center">
 		    This is one of the biggest problems with the Theory of Relativity. It focuses on how space-time
 			alters when you go at speeds, causing paradoxes when reaching the speed of light.
 		  </p>
@@ -166,7 +167,7 @@
         <div class="card ">
 		  <h4 class="bold">Quantum Mechanics</h4>
 	      <hr class="solid">
-		  <p class="textCenter whiteText">
+		  <p class="textCenter whiteText center">
 		    Now imagine if we ignored the Theory of Relativity, you end up with Quantum Mechanics. This 
 			confusing area of physics explains the behaviour of sub-atomic particles.
 		  </p>
@@ -177,8 +178,8 @@
         <div class="card ">
 		  <h4 class="bold">Quantum Entanglement</h4>
 	      <hr class="solid">
-		  <p class="textCenter whiteText">
-		    This is one of the most plausible ways of us traveling faster than light. It involevs quantum
+		  <p class="textCenter whiteText center">
+		    This is one of the most plausible ways of us traveling faster than light. It involves quantum
 			superposition and entangled states with its effects traviling, presumable, faster than light.
 		  </p>
 	      <hr class="solid">
@@ -189,7 +190,16 @@
     </div>
   </div>
 </div>
-
+<footer class="mt-3">
+  <div class="row greyBg pt-3">
+	<div class="col-md-6 col-xs-12">
+	  <p class="textCenter whiteText">Can We Go The Speed Of Light?</p>
+	</div>
+    <div class="col-md-6 col-xs-12">
+	  <p class="textCenter"><a href="references.html" class="whiteText">References</a></p>
+    </div>
+  </div>
+</footer>
 </body>	
   <script src="js/bootstrap.bundle.js"></script>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
